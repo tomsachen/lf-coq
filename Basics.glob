@@ -1,4 +1,4 @@
-DIGEST 86fba2cf41a2af7832bddbde6abb967e
+DIGEST 227321f1d9f2f9f2b0c3c4d4c8478d14
 FLF.Basics
 ind 3226:3228 <> day
 constr 3244:3249 <> monday
@@ -1420,64 +1420,82 @@ def 75117:75120 <> incr
 R75125:75127 LF.Basics <> bin ind
 binder 75123:75123 <> m:179
 R75132:75134 LF.Basics <> bin ind
-def 75213:75222 <> bin_to_nat
-R75227:75229 LF.Basics <> bin ind
-binder 75225:75225 <> m:181
-R75234:75236 Coq.Init.Datatypes <> nat ind
-def 75618:75631 <> test_bin_incr1
-R75635:75635 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R75647:75650 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R75636:75639 LF.Basics <> incr prfax
-R75642:75643 LF.Basics <> B1 constr
-R75645:75645 LF.Basics <> Z constr
-R75651:75652 LF.Basics <> B0 constr
-R75655:75656 LF.Basics <> B1 constr
-R75658:75658 LF.Basics <> Z constr
-def 75700:75713 <> test_bin_incr2
-R75717:75717 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R75734:75737 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R75718:75721 LF.Basics <> incr prfax
-R75724:75725 LF.Basics <> B0 constr
-R75728:75729 LF.Basics <> B1 constr
-R75731:75731 LF.Basics <> Z constr
-R75738:75739 LF.Basics <> B1 constr
-R75742:75743 LF.Basics <> B1 constr
-R75745:75745 LF.Basics <> Z constr
-def 75787:75800 <> test_bin_incr3
-R75804:75804 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R75821:75824 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R75805:75808 LF.Basics <> incr prfax
-R75811:75812 LF.Basics <> B1 constr
-R75815:75816 LF.Basics <> B1 constr
-R75818:75818 LF.Basics <> Z constr
-R75825:75826 LF.Basics <> B0 constr
-R75829:75830 LF.Basics <> B0 constr
-R75833:75834 LF.Basics <> B1 constr
-R75836:75836 LF.Basics <> Z constr
-def 75879:75892 <> test_bin_incr4
-R75918:75920 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R75896:75905 LF.Basics <> bin_to_nat prfax
-R75908:75909 LF.Basics <> B0 constr
-R75912:75913 LF.Basics <> B1 constr
-R75915:75915 LF.Basics <> Z constr
-def 75962:75975 <> test_bin_incr5
-R76011:76013 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R75987:75996 LF.Basics <> bin_to_nat prfax
-R75999:76002 LF.Basics <> incr prfax
-R76005:76006 LF.Basics <> B1 constr
-R76008:76008 LF.Basics <> Z constr
-R76015:76017 LF.Basics <> ::nat_scope:x_'+'_x not
-R76018:76027 LF.Basics <> bin_to_nat prfax
-R76030:76031 LF.Basics <> B1 constr
-R76033:76033 LF.Basics <> Z constr
-def 76075:76088 <> test_bin_incr6
-R76131:76133 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R76100:76109 LF.Basics <> bin_to_nat prfax
-R76112:76115 LF.Basics <> incr prfax
-R76118:76121 LF.Basics <> incr prfax
-R76124:76125 LF.Basics <> B1 constr
-R76127:76127 LF.Basics <> Z constr
-R76135:76137 LF.Basics <> ::nat_scope:x_'+'_x not
-R76138:76147 LF.Basics <> bin_to_nat prfax
-R76150:76151 LF.Basics <> B1 constr
-R76153:76153 LF.Basics <> Z constr
+R75147:75147 LF.Basics <> m:179 var
+R75159:75159 LF.Basics <> Z constr
+R75164:75165 LF.Basics <> B1 constr
+R75167:75167 LF.Basics <> Z constr
+R75173:75174 LF.Basics <> B0 constr
+R75184:75185 LF.Basics <> B1 constr
+R75196:75197 LF.Basics <> B1 constr
+R75207:75208 LF.Basics <> B0 constr
+R75211:75214 LF.Basics <> incr:180 def
+def 75237:75246 <> bin_to_nat
+R75251:75253 LF.Basics <> bin ind
+binder 75249:75249 <> m:182
+R75258:75260 Coq.Init.Datatypes <> nat ind
+R75273:75273 LF.Basics <> m:182 var
+R75285:75285 LF.Basics <> Z constr
+R75296:75297 LF.Basics <> B0 constr
+R75308:75310 LF.Basics <> ::nat_scope:x_'*'_x not
+R75311:75320 LF.Basics <> bin_to_nat:183 def
+R75331:75332 LF.Basics <> B1 constr
+R75361:75363 LF.Basics <> ::nat_scope:x_'+'_x not
+R75343:75345 LF.Basics <> ::nat_scope:x_'*'_x not
+R75346:75355 LF.Basics <> bin_to_nat:183 def
+def 75686:75699 <> test_bin_incr1
+R75703:75703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R75715:75718 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R75704:75707 LF.Basics <> incr def
+R75710:75711 LF.Basics <> B1 constr
+R75713:75713 LF.Basics <> Z constr
+R75719:75720 LF.Basics <> B0 constr
+R75723:75724 LF.Basics <> B1 constr
+R75726:75726 LF.Basics <> Z constr
+def 75764:75777 <> test_bin_incr2
+R75781:75781 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R75798:75801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R75782:75785 LF.Basics <> incr def
+R75788:75789 LF.Basics <> B0 constr
+R75792:75793 LF.Basics <> B1 constr
+R75795:75795 LF.Basics <> Z constr
+R75802:75803 LF.Basics <> B1 constr
+R75806:75807 LF.Basics <> B1 constr
+R75809:75809 LF.Basics <> Z constr
+def 75847:75860 <> test_bin_incr3
+R75864:75864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R75881:75884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R75865:75868 LF.Basics <> incr def
+R75871:75872 LF.Basics <> B1 constr
+R75875:75876 LF.Basics <> B1 constr
+R75878:75878 LF.Basics <> Z constr
+R75885:75886 LF.Basics <> B0 constr
+R75889:75890 LF.Basics <> B0 constr
+R75893:75894 LF.Basics <> B1 constr
+R75896:75896 LF.Basics <> Z constr
+def 75935:75948 <> test_bin_incr4
+R75974:75976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R75952:75961 LF.Basics <> bin_to_nat def
+R75964:75965 LF.Basics <> B0 constr
+R75968:75969 LF.Basics <> B1 constr
+R75971:75971 LF.Basics <> Z constr
+def 76014:76027 <> test_bin_incr5
+R76063:76065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R76039:76048 LF.Basics <> bin_to_nat def
+R76051:76054 LF.Basics <> incr def
+R76057:76058 LF.Basics <> B1 constr
+R76060:76060 LF.Basics <> Z constr
+R76067:76069 LF.Basics <> ::nat_scope:x_'+'_x not
+R76070:76079 LF.Basics <> bin_to_nat def
+R76082:76083 LF.Basics <> B1 constr
+R76085:76085 LF.Basics <> Z constr
+def 76123:76136 <> test_bin_incr6
+R76179:76181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R76148:76157 LF.Basics <> bin_to_nat def
+R76160:76163 LF.Basics <> incr def
+R76166:76169 LF.Basics <> incr def
+R76172:76173 LF.Basics <> B1 constr
+R76175:76175 LF.Basics <> Z constr
+R76183:76185 LF.Basics <> ::nat_scope:x_'+'_x not
+R76186:76195 LF.Basics <> bin_to_nat def
+R76198:76199 LF.Basics <> B1 constr
+R76201:76201 LF.Basics <> Z constr
