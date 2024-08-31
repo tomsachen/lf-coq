@@ -1361,21 +1361,30 @@ Proof. simpl. reflexivity. Qed.
     But again, you cannot pass [cnat] itself as the type argument.
     Finding the right type can be tricky. *)
 
-(*
+(* Check one.
+    => cnat : forall (X: Type), (X -> X)-> X -> X *)
+(* Check one nat.
+    => (nat -> nat) -> nat -> nat *)
+(* Check one nat S.
+    => nat -> nat *)
+(* Check one nat S O.
+    => nat *)
 
+(*
 n : forall (X : Type), (X -> X) -> X -> X
 
-n X f x : X
+=> n X : (X -> X) -> X -> X
 
 => n X f : X -> X
 
-=> (n X f)^m is exponentiation.
+=> n X f x : X
+
+=> [(n X) applied m times to f] is exponentiation n^m.
 
 => this is another church numeral --
-   applying (n X : (X -> X) -> X) to f, m times.
+   applying (n X : (X -> X) -> X -> X) to f, m times.
 
 => m (X -> X) (n X) f.
-
 *)
 
 Definition exp (n m : cnat) : cnat :=
