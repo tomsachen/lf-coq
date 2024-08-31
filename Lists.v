@@ -270,6 +270,8 @@ Definition hd (default : nat) (l : natlist) : nat :=
   | h :: t => h
   end.
 
+Check hd.
+
 Definition tl (l : natlist) : natlist :=
   match l with
   | nil => nil
