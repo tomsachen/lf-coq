@@ -77,7 +77,7 @@ Theorem silly_ex : forall p,
   even p = true ->
   odd (S p) = true.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  intros p H1 H2 H3. apply H2. apply H1. apply H3. Qed.
 (** [] *)
 
 (** To use the [apply] tactic, the (conclusion of the) fact
@@ -108,11 +108,13 @@ Proof.
     that theorem as part of your (relatively short) solution to this
     exercise. You do not need [induction]. *)
 
+Search rev.
+
 Theorem rev_exercise1 : forall (l l' : list nat),
-  l = rev l' ->
+  l = rev l' -> 
   l' = rev l.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  intros l l' H. apply rev_injective.
 (** [] *)
 
 (** **** Exercise: 1 star, standard, optional (apply_rewrite)
