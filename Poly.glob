@@ -1,4 +1,4 @@
-DIGEST d3bd7842aa4582d76fa61b03da5c1289
+DIGEST 0de508d850cedcbca3ef96d99f3f30f2
 FLF.Poly
 R322:326 LF.Lists <> <> lib
 ind 1183:1190 <> boollist
@@ -1636,48 +1636,48 @@ R44996:45000 LF.Poly Exercises.Church three def
 R45004:45007 LF.Poly Exercises.Church plus def
 R45009:45013 LF.Poly Exercises.Church three def
 R45015:45019 LF.Poly Exercises.Church three def
-def 45649:45651 Exercises.Church exp
-R45660:45663 LF.Poly Exercises.Church cnat def
-binder 45654:45654 <> n:245
-binder 45656:45656 <> m:246
-R45668:45671 LF.Poly Exercises.Church cnat def
-binder 45683:45683 <> X:247
-R45699:45702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R45698:45698 LF.Poly <> X:247 var
-R45703:45703 LF.Poly <> X:247 var
-binder 45694:45694 <> f:248
-R45709:45709 LF.Poly <> m:246 var
-R45713:45716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R45712:45712 LF.Poly <> X:247 var
-R45717:45717 LF.Poly <> X:247 var
-R45721:45721 LF.Poly <> n:245 var
-R45723:45723 LF.Poly <> X:247 var
-R45726:45726 LF.Poly <> f:248 var
-def 45738:45742 Exercises.Church exp_1
-R45757:45759 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R45746:45748 LF.Poly Exercises.Church exp def
-R45750:45752 LF.Poly Exercises.Church two def
-R45754:45756 LF.Poly Exercises.Church two def
-R45760:45763 LF.Poly Exercises.Church plus def
-R45765:45767 LF.Poly Exercises.Church two def
-R45769:45771 LF.Poly Exercises.Church two def
-def 45815:45819 Exercises.Church exp_2
-R45837:45839 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R45823:45825 LF.Poly Exercises.Church exp def
-R45827:45831 LF.Poly Exercises.Church three def
-R45833:45836 LF.Poly Exercises.Church zero def
-R45840:45842 LF.Poly Exercises.Church one def
-def 45886:45890 Exercises.Church exp_3
-R45907:45909 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R45894:45896 LF.Poly Exercises.Church exp def
-R45898:45902 LF.Poly Exercises.Church three def
-R45904:45906 LF.Poly Exercises.Church two def
-R45910:45913 LF.Poly Exercises.Church plus def
-R45916:45919 LF.Poly Exercises.Church mult def
-R45921:45923 LF.Poly Exercises.Church two def
-R45926:45929 LF.Poly Exercises.Church mult def
-R45931:45933 LF.Poly Exercises.Church two def
-R45935:45937 LF.Poly Exercises.Church two def
-R45941:45943 LF.Poly Exercises.Church one def
-R45994:45999 LF.Poly Exercises.Church <> mod
-R46006:46014 LF.Poly Exercises <> mod
+def 45907:45909 Exercises.Church exp
+R45918:45921 LF.Poly Exercises.Church cnat def
+binder 45912:45912 <> n:245
+binder 45914:45914 <> m:246
+R45926:45929 LF.Poly Exercises.Church cnat def
+binder 45941:45941 <> X:247
+R45957:45960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45956:45956 LF.Poly <> X:247 var
+R45961:45961 LF.Poly <> X:247 var
+binder 45952:45952 <> f:248
+R45967:45967 LF.Poly <> m:246 var
+R45971:45974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45970:45970 LF.Poly <> X:247 var
+R45975:45975 LF.Poly <> X:247 var
+R45979:45979 LF.Poly <> n:245 var
+R45981:45981 LF.Poly <> X:247 var
+R45984:45984 LF.Poly <> f:248 var
+def 45996:46000 Exercises.Church exp_1
+R46015:46017 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46004:46006 LF.Poly Exercises.Church exp def
+R46008:46010 LF.Poly Exercises.Church two def
+R46012:46014 LF.Poly Exercises.Church two def
+R46018:46021 LF.Poly Exercises.Church plus def
+R46023:46025 LF.Poly Exercises.Church two def
+R46027:46029 LF.Poly Exercises.Church two def
+def 46073:46077 Exercises.Church exp_2
+R46095:46097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46081:46083 LF.Poly Exercises.Church exp def
+R46085:46089 LF.Poly Exercises.Church three def
+R46091:46094 LF.Poly Exercises.Church zero def
+R46098:46100 LF.Poly Exercises.Church one def
+def 46144:46148 Exercises.Church exp_3
+R46165:46167 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46152:46154 LF.Poly Exercises.Church exp def
+R46156:46160 LF.Poly Exercises.Church three def
+R46162:46164 LF.Poly Exercises.Church two def
+R46168:46171 LF.Poly Exercises.Church plus def
+R46174:46177 LF.Poly Exercises.Church mult def
+R46179:46181 LF.Poly Exercises.Church two def
+R46184:46187 LF.Poly Exercises.Church mult def
+R46189:46191 LF.Poly Exercises.Church two def
+R46193:46195 LF.Poly Exercises.Church two def
+R46199:46201 LF.Poly Exercises.Church one def
+R46252:46257 LF.Poly Exercises.Church <> mod
+R46264:46272 LF.Poly Exercises <> mod

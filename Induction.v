@@ -686,7 +686,7 @@ Proof.
     rewrite G3, G4. reflexivity.
 Qed.
 
-Theorem mult_assoc' : forall n m p : nat,
+Theorem mult_assoc : forall n m p : nat,
   n * (m * p) = (n * m) * p.
 Proof.
   intros n m p.
